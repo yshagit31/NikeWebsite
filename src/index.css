@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.padding-r{
+    @apply sm:pr-16 pr-8;
+}
+.padding-b{
+   @apply sm:pb-24 pb-12;
+}
+.padding{
+    @apply sm:px-16 sm:py-24 px-8 py-12;
+}
+.padding-x{
+    @apply sm:px-16 px-8;
+}
+.padding-t{
+    @apply sm:pt-24 pt-12;
+}
