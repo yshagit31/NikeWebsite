@@ -4,10 +4,18 @@ export default {
     "./index.html",
     "./src/**/*.{jsx,js}",
   ],
-  theme: {
+  theme: { 
     extend: {
+      fontFamily:{
+        palanquin: ['Palanquin', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
     colors:{
       'pale-blue':'#F5F6FF',
+      'coral-red':'#FF6452',
+      'primary': "#ECEEFF",
+      "slate-gray": "#6D6D6D",
+      "white-400": "rgba(255, 255, 255, 0.80)"
     },
 
     },

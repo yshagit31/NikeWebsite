@@ -25,8 +25,10 @@ export {
     bigShoe1,
     bigShoe2,
     bigShoe3,
+
     customer1,
     customer2,
+
     footerLogo,
     headerLogo,
 
