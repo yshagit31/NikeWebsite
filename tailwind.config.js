@@ -17,7 +17,10 @@ export default {
       "slate-gray": "#6D6D6D",
       "white-400": "rgba(255, 255, 255, 0.80)"
     },
-
+    backgroundImage: {
+      'hero': "url('assets/images/collection-background.svg')",
+      'card': "url('assets/images/thumbnail-background.svg')",
+    },
     },
   },
   plugins: [],

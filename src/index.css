@@ -20,7 +20,10 @@
 }
 
 @layer utilities{
-
+    
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
     .padding-r{
         @apply sm:pr-16 pr-8;
     }
