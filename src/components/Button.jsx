@@ -1,5 +1,3 @@
-
-
 const Button = ({label, iconUrl}) => {
   return (
     <button className="flex justify-center items-center gap-2 rounded-full bg-coral-red text-white px-5 py-2">
