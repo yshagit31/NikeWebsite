@@ -103,11 +103,11 @@ export const footerLinks = [
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "About us", link: "https://about.nike.com/en/" },
+            { name: "FAQs", link: "https://www.nike.com/help" },
+            { name: "How it works", link: "https://about.nike.com/en/" },
+            { name: "Privacy policy", link: "https://about.nike.com/en/" },
+            { name: "Payment policy", link: "https://www.nike.com/in/help/a/payment-options" },
         ],
     },
     {
@@ -120,7 +120,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo" ,ref:"https://www.facebook.com/nike/" },
+    { src: twitter, alt: "twitter logo" , ref:"https://x.com/Nike"},
+    { src: instagram, alt: "instagram logo",ref:"https://www.instagram.com/nike/" },
 ];

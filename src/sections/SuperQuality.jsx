@@ -19,7 +19,7 @@ const SuperQuality = () => {
           Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className="mt-11">
-        <Button label="View Details"></Button>
+        <a href="https://about.nike.com/en/" target="_blank"><Button label="View Details"></Button></a>
         </div>
     </div>
         <div className="flex flex-1 items-center justify-center"><img src={shoe8} alt="shoe8" width={570} height={522} className="object-contain" /></div>

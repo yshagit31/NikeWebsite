@@ -22,12 +22,12 @@ const Footer = () => {
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (
-              <div
+              <a href={icon.ref} target="_blank"
                 className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
                 key={icon.alt}
               >
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
-              </div>
+              </a>
             ))}
           </div>
         </div>

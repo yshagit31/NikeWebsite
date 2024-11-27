@@ -25,8 +25,8 @@ function SpecialOffer()
           nothing short of exceptional.
         </p>
         <div className="flex flex-wrap gap-4 mt-11">
-        <Button label="Shop Now" iconUrl={arrowRight}></Button>
-        <Button label="Learn more" backgroundColor="bg-white" borderColor=" border-slate-gray" textColor="text-slate-gray"></Button>
+        <a href="https://www.nike.com/in/?msockid=25065f92a0f562463bda4f44a16e6390" target="_blank" ><Button label="Shop Now" iconUrl={arrowRight}></Button></a>
+        <a href="https://about.nike.com/en/" target="_blank"><Button label="Learn more" backgroundColor="bg-white" borderColor=" border-slate-gray" textColor="text-slate-gray"></Button></a>
         </div>
     </div>
     </section>
